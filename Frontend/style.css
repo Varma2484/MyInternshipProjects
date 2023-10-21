@@ -1,0 +1,210 @@
+body{
+    margin: 0px;
+    font-family:cursive;
+    width:100vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.navbar{
+    width:100vw;
+    height:50px;
+    color:white;
+}
+.navbarScroll.navbarDark {
+    background-color:rgb(16, 16, 142);
+}
+.fixed-top {
+    color:white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+#leftTitle {
+    font-weight: bolder;
+    font-size: larger;
+    padding: 5px;
+}
+#righttitleDiv{
+    width: 35%;
+}
+#rightTitle{
+    display: flex;
+    justify-content: space-between;
+    font-weight:bolder;
+    font-size:medium;
+    list-style: none;
+}
+.spacebtwn{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 30px 0px 40px;
+}
+.navlink{
+    text-decoration: none;
+    color: white;
+}
+.nametitle{
+    font-size: 4rem;
+}
+.nametext{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.namedesc{
+    font-size: 2rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.bgimage {
+    height: 100vh;
+    background: url(images/profile.jpg);
+    background-size: cover;
+    position: relative;
+}
+.tab {
+    display: inline-block;
+    margin-left: 60px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.flexrow{
+    display: flex;
+}
+.flexcolumn{
+    display: flex;
+    flex-direction: column;
+}
+.flexwrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.space{
+    display: flex;
+    justify-content: center;
+}
+
+#about, #portfolio, #coursework, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+
+.text-center {
+    text-align: center!important;
+}
+.h1, h1 {
+    font-size: calc(1.375rem + 1.5vw);
+}
+
+.box {
+    display: flex;
+    width: 25vw;
+    height: 40vh;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    margin: 20px;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+}
+.card-title {
+    margin-bottom: .5rem;
+}
+.h4, h4 {
+    font-size: calc(1.275rem + .3vw);
+}
+.topspace{
+    margin-top: 1rem!important;
+}
+.coursecard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottommargin{
+    margin-bottom: 20px;
+}
+.pfbox {
+    display: flex;
+    width: 25vw;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    margin: 20px;
+}
+.formcontrol{
+    display: block;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    width: 45vw;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-success {
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+    padding: 10px;
+    border-radius: 9px;
+    font-size: large;
+    cursor: pointer;
+}
+.btn-orange {
+    color: #fff;
+    background-color: #a24938;
+    border-color: #6f1f0f;
+    padding: 10px;
+    border-radius: 9px;
+    font-size: large;
+    cursor: pointer;
+}
+#getResume{
+    color: white;
+    text-decoration: none;
+}
+#footer {
+    height: 35px;
+    font-size: 28px;
+    background-color: rgb(120 120 120 / 14%);
+    text-align: center;
+}
+.social{
+    height: 100%;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
